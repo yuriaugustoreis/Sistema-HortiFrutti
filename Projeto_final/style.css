@@ -1,0 +1,137 @@
+body{
+    background-color: #ebebe0;
+}
+
+.d-block {
+    width: 100%;
+    height: 100%;
+}
+
+.fa-user {
+    font-size: 35px;
+    color: black;
+}
+
+.fa-store {
+    font-size: 35px;
+    text-align: right;
+}
+
+.fa-facebook{
+    font-size: 30px;
+}
+
+.fa-twitter{
+    font-size: 30px;
+}
+
+.fa-github{
+    font-size: 30px;
+}
+
+.fa-instagram-square{
+    font-size: 30px;
+}
+
+.text-c {
+    text-align: center;
+}
+.text-l {
+    text-align: center;
+}
+.text-r {
+    text-align: center;
+}
+.text-j {
+    text-align: center;
+}
+
+.text-whitesmoke {
+    color: rgb(255, 255, 255)
+}
+.text-darkyellow {
+    color: rgb(255, 255, 255)
+}
+
+.button {
+    border-radius: 3px;
+}
+.form-button {
+    background-color: rgba(0, 0, 0, 0.24);
+    border-color: rgba(255, 255, 255, 0.24);
+    color: #e6e6e6;
+}
+.form-button:hover,
+.form-button:focus,
+.form-button:active,
+.form-button.active,
+.form-button:active:focus,
+.form-button:active:hover,
+.form-button.active:hover,
+.form-button.active:focus {
+    background-color: rgba(255, 255, 255, 0.473);
+    color: #e6e6e6;
+}
+.button-l {
+    width: 100%;
+}
+
+.form-control,
+.border-line {
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #ffffff;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.form-control:focus,
+.border-line:focus {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+.form-control,
+.form-control:focus {
+    box-shadow: none;
+}
+
+.container-content {
+    background-color: #252222a2;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #000000;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+
+.main-bg {
+    text-align: center;
+    background: #0e0d0d;
+    background-image: url("frutinhas.jpg");
+    background-size: 100%;
+}
+
+.login-container {
+    max-width: 400px;
+    z-index: 100;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.login.login-container {
+    width: 300px;
+}
+.wrapper.login-container {
+    margin-top: 140px;
+}
+.logo-badge {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: -10px;
+    margin-bottom: 0;
+}
